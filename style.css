@@ -1,0 +1,150 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid a {
+  margin: 5px 20px;
+}
+.navbar {
+  color: #000 !important;
+  background-color: #fff !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.Home {
+  margin-top: 65px;
+}
+
+.welcome-name {
+  position: relative;
+  text-align: center;
+}
+.wname {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white !important;
+}
+.bname {
+  background-color: black !important;
+  opacity: 70%;
+  padding: 5px;
+}
+
+.navbar-nav {
+  margin-right: 20px;
+}
+.nav-item a {
+  margin: 5px 20px;
+  color: black !important;
+}
+.nav-item a:hover {
+  color: #ccc !important;
+}
+.home-img {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  border-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+  padding: 0.01em;
+  margin-bottom: 15px;
+  margin: 30px 30px;
+}
+.tumb {
+  display: flex;
+  flex: auto;
+  margin-left: 30px;
+}
+.img-thumbnail {
+  width: 235px;
+  height: auto;
+}
+.marg {
+  margin: 5px;
+}
+.img-container {
+  position: relative;
+  border-style: none;
+  display: flex;
+  vertical-align: middle;
+}
+.img-text {
+  color: #fff !important;
+  background-color: #000 !important;
+  padding: 8px 12px !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+.para {
+  margin-left: 30px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 8px 16px;
+  text-align: center !important;
+  width: 100%;
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+.testimonial {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.card {
+  margin-left: 10px;
+  margin-top: 10px;
+
+  /* margin-right: 5px; */
+}
+
+.form-group {
+  margin: 30px;
+}
+
+.s-btn {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  box-sizing: inherit;
+  padding: 10px 16px !important;
+  background-color: black !important;
+  color: #fff !important;
+}
+
+.map-img {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.map-img1 {
+  width: 98%;
+}
+
+.footer {
+  background-color: black !important;
+  width: 100%;
+  color: #fff !important;
+  background-color: #000 !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  text-align: center !important;
+  display: block;
+}
+.footer1 {
+  color: #fff !important;
+  text-align: center !important;
+}
+.footer1 a {
+  color: inherit;
+  text-decoration: none;
+}
+.footer1 a:hover {
+  color: green;
+}
